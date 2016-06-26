@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F41E3171D1FED5300817D87 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F41E3151D1FED5300817D87 /* lodepng.cpp */; };
+		4FFA450B1D1E7F5100C887AC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA450A1D1E7F5100C887AC /* main.cpp */; };
+		54B2CF27FF03F55FC7A0FF7F /* libPods-m2p.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6266D7D338C4AD3F3F5229B4 /* libPods-m2p.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FFA45051D1E7F5100C887AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C5D718085D7C70E4DE9A474 /* Pods-m2p.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2p.debug.xcconfig"; path = "Pods/Target Support Files/Pods-m2p/Pods-m2p.debug.xcconfig"; sourceTree = "<group>"; };
+		4F41E3151D1FED5300817D87 /* lodepng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng.cpp; sourceTree = "<group>"; };
+		4F41E3161D1FED5300817D87 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
+		4F41E3181D20038300817D87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4FFA45071D1E7F5100C887AC /* m2p */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = m2p; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFA450A1D1E7F5100C887AC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6266D7D338C4AD3F3F5229B4 /* libPods-m2p.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m2p.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AEF86CC9A6E5EA533CC4C6 /* Pods-m2p.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m2p.release.xcconfig"; path = "Pods/Target Support Files/Pods-m2p/Pods-m2p.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FFA45041D1E7F5100C887AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B2CF27FF03F55FC7A0FF7F /* libPods-m2p.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFA44FE1D1E7F5100C887AC = {
+			isa = PBXGroup;
+			children = (
+				4F41E3181D20038300817D87 /* README.md */,
+				4FFA45091D1E7F5100C887AC /* m2p */,
+				4FFA45081D1E7F5100C887AC /* Products */,
+				B81D39B3AC23EE3B708DB359 /* Pods */,
+				A3EB7971B2EB42865ECC5078 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFA45081D1E7F5100C887AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFA45071D1E7F5100C887AC /* m2p */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFA45091D1E7F5100C887AC /* m2p */ = {
+			isa = PBXGroup;
+			children = (
+				4F41E3151D1FED5300817D87 /* lodepng.cpp */,
+				4F41E3161D1FED5300817D87 /* lodepng.h */,
+				4FFA450A1D1E7F5100C887AC /* main.cpp */,
+			);
+			path = m2p;
+			sourceTree = "<group>";
+		};
+		A3EB7971B2EB42865ECC5078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6266D7D338C4AD3F3F5229B4 /* libPods-m2p.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B81D39B3AC23EE3B708DB359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C5D718085D7C70E4DE9A474 /* Pods-m2p.debug.xcconfig */,
+				B7AEF86CC9A6E5EA533CC4C6 /* Pods-m2p.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FFA45061D1E7F5100C887AC /* m2p */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFA450E1D1E7F5100C887AC /* Build configuration list for PBXNativeTarget "m2p" */;
+			buildPhases = (
+				D82C74533C630A4E3F81812C /* [CP] Check Pods Manifest.lock */,
+				4FFA45031D1E7F5100C887AC /* Sources */,
+				4FFA45041D1E7F5100C887AC /* Frameworks */,
+				4FFA45051D1E7F5100C887AC /* CopyFiles */,
+				E1DAF81A5BCA62471371229F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = m2p;
+			productName = m2p;
+			productReference = 4FFA45071D1E7F5100C887AC /* m2p */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFA44FF1D1E7F5100C887AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sopamo GmbH";
+				TargetAttributes = {
+					4FFA45061D1E7F5100C887AC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FFA45021D1E7F5100C887AC /* Build configuration list for PBXProject "m2p" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FFA44FE1D1E7F5100C887AC;
+			productRefGroup = 4FFA45081D1E7F5100C887AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFA45061D1E7F5100C887AC /* m2p */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D82C74533C630A4E3F81812C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1DAF81A5BCA62471371229F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-m2p/Pods-m2p-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FFA45031D1E7F5100C887AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFA450B1D1E7F5100C887AC /* main.cpp in Sources */,
+				4F41E3171D1FED5300817D87 /* lodepng.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4FFA450C1D1E7F5100C887AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FFA450D1D1E7F5100C887AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FFA450F1D1E7F5100C887AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5D718085D7C70E4DE9A474 /* Pods-m2p.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FFA45101D1E7F5100C887AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7AEF86CC9A6E5EA533CC4C6 /* Pods-m2p.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FFA45021D1E7F5100C887AC /* Build configuration list for PBXProject "m2p" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFA450C1D1E7F5100C887AC /* Debug */,
+				4FFA450D1D1E7F5100C887AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFA450E1D1E7F5100C887AC /* Build configuration list for PBXNativeTarget "m2p" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFA450F1D1E7F5100C887AC /* Debug */,
+				4FFA45101D1E7F5100C887AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFA44FF1D1E7F5100C887AC /* Project object */;
+}
