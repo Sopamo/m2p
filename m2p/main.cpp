@@ -12,6 +12,7 @@
 #include <vector>
 #include <math.h>
 #include <sodium.h>
+#include <sstream>
 
 #include "lodepng.h"
 
@@ -87,10 +88,10 @@ void encode(const char* inputFile, const char * outputDir) {
         }
         
         // Generate the part's filename
-        char * filename = new char[5000];
-        std::string output = std::string(outputDir) + std::string("/out%d.png");
-        sprintf(filename, output.data(),extension);
-        encodeOneStep(filename, image, width, height);
+        std::stringstream filenameStream;
+        filenameStream << outputDir << "/out" << extension << ".png";
+        auto filename = filenameStream.str();
+        encodeOneStep(filename.c_str(), image, width, height);
         std::cout << "Saved part " << extension << "\n";
         extension++;
     }
